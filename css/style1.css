@@ -1,0 +1,354 @@
+ * {
+     padding: 0px;
+     margin: 0 auto;
+     font-family: sans-serif;
+     box-sizing: border-box;
+ }
+ 
+ .layout {
+     width: 90%;
+     margin: 0 auto;
+ }
+ 
+ a {
+     color: blue;
+     text-decoration: none;
+ }
+ 
+ a:hover {
+     color: #fc0;
+     text-decoration: underline;
+ }
+ 
+ header {
+     background-image: url(../images/ngoletan.jpg);
+     padding-bottom: 10%;
+     background-size: 100% 100%;
+ }
+ /*nav*/
+ 
+ nav {
+     margin: 10px 0;
+     color: aquamarine;
+     font-variant: small-caps;
+     background-color: antiquewhite;
+     line-height: 10px;
+ }
+ 
+ .menubutton {
+     font-size: 20px;
+ }
+ 
+ .menubutton ul {
+     background: #7ff;
+     padding: 0px;
+     margin: 0px;
+     line-height: 45px;
+     text-decoration: none;
+ }
+ 
+ .menubutton>ul>span>li {
+     display: inline-block;
+     padding: 0 15px;
+ }
+ 
+ .menubutton ul li {
+     padding: 10px 10px 10px 10px;
+     position: relative;
+ }
+ 
+ .menubutton .menuright .search {
+     float: right;
+     width: 250px;
+     height: 30px;
+     margin: 5px;
+ }
+ 
+ .menubutton .icon a {
+     float: right;
+     margin: 5px;
+     padding: 0px 6px;
+ }
+ 
+ .menubutton .icomhom a {
+     float: left;
+     margin: 5px;
+     padding: 0px 6px;
+ }
+ 
+ .menubutton .submenu {
+     position: absolute;
+     padding: 0px;
+     list-style: none;
+     margin: 0px;
+     display: none;
+     border-radius: 5px;
+     line-height: none;
+     width: 200px;
+     background: white;
+ }
+ 
+ .menubutton .submenu>a {
+     display: block;
+     line-height: 20px;
+     color: orangered;
+     padding: 0 10px;
+ }
+ 
+ .menubutton .submenu li:hover {
+     background: orange;
+     border-radius: 5px;
+     text-decoration: none;
+ }
+ 
+ .menubutton .submenu li:hover a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .menubutton>ul>span>li:hover>.submenu {
+     display: block;
+ }
+ 
+ article {
+     width: 70%;
+     float: left;
+     padding: 0 10px;
+ }
+ 
+ article iframe {
+     clear: both;
+     width: 100%;
+     height: 1100px;
+ }
+ 
+ .linktintuc .left1 img {
+     float: left;
+     margin-right: 10px;
+ }
+ 
+ .box1 {
+     width: 25%;
+     height: 0 auto;
+     padding: 0px 25px 0 0;
+     margin-top: 25px;
+     background-color: rgb(142, 197, 197);
+     float: left;
+ }
+ 
+ .box1 ul {
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ .box1 ul li {
+     list-style: none;
+     border-bottom: 1px solid #cccccc;
+     padding: 0 10px;
+ }
+ 
+ .box1 ul li p {
+     padding: 0 10px;
+ }
+ 
+ .box1 ul li img {
+     float: left;
+     margin-right: 10px;
+ }
+ 
+ aside {
+     width: 30%;
+     float: left;
+ }
+ 
+ aside .right {
+     width: 100%;
+     float: right;
+     padding: 15px 0 0 15px;
+ }
+ 
+ aside .menuright {
+     width: 100%;
+     float: right;
+     min-height: 400px;
+     padding: 15px 0 0 15px;
+ }
+ 
+ .menuright ul {
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ .menuright ul li {
+     list-style: none;
+ }
+ 
+ .menuright ul li:nth-child(odd) {
+     background-color: #eee;
+ }
+ 
+ .menuright ul li a {
+     display: block;
+     padding: 5px 0;
+     text-decoration: none;
+     line-height: 32px;
+     border-bottom: 1px solid #7ff;
+     text-indent: 28px;
+     background: url(../images/mui31.png) no-repeat 2px;
+ }
+ 
+ .menuright ul li a:hover {
+     color: #7ff;
+     text-decoration: none;
+ }
+ 
+ .menuright h3 {
+     background: #194d58 url(../images/menu21.png) no-repeat 3px;
+     height: 40px;
+     margin-top: 0px;
+     text-align: left;
+     font-size: 20px;
+     line-height: 40px;
+     color: #fff;
+     text-indent: 30px;
+ }
+ 
+ .menuright .menusub {
+     position: absolute;
+     padding: 0px;
+     list-style: none;
+     margin: 0px;
+     display: none;
+     border-radius: 5px;
+     line-height: none;
+     width: 185px;
+     background: #cccccc;
+ }
+ 
+ .menuright .menusub>a {
+     display: block;
+     line-height: 20px;
+     color: orangered;
+     padding: 0 10px;
+ }
+ 
+ .menusub li:hover {
+     background: orange;
+     border-radius: 5px;
+     initial-letter-align: left;
+ }
+ 
+ .menusub li:hover a {
+     color: white;
+ }
+ 
+ .menuright>ul>li:hover>.menusub {
+     display: block;
+ }
+ 
+ .menutailieu {
+     width: 100%;
+     float: right;
+     min-height: 400px;
+     padding: 15px 0 0 15px;
+     position: relative;
+     list-style: none;
+ }
+ 
+ .menutailieu h3 {
+     background: #f30c33 url(../images/icon6.png) no-repeat 3px;
+     height: 40px;
+     margin-top: 0px;
+     text-align: left;
+     font-size: 20px;
+     line-height: 40px;
+     color: #fff;
+     text-indent: 30px;
+ }
+ 
+ .menutailieu ul {
+     list-style: none;
+ }
+ 
+ .menutailieu ul li a {
+     display: block;
+     padding: 10px 0;
+     text-decoration: none;
+     line-height: 32px;
+     border: 1px solid #f50808;
+     text-indent: 28px;
+     background: url(../images/icon8.png) no-repeat 2px;
+ }
+ /*************/
+ 
+ .container {
+     width: 70%;
+     margin-left: 400px;
+ }
+ 
+ .login-form {
+     width: 50%;
+     margin: 20px auto;
+     background-color: #ffffff;
+     padding: 15px;
+     border: 1px dotted #cccccc;
+     border-radius: 10px;
+ }
+ 
+ h1 {
+     color: #009999;
+     font-size: 20px;
+     margin-bottom: 30px;
+ }
+ 
+ .btn-box {
+     text-align: right;
+     margin-top: 30px;
+ }
+ 
+ .btn-box button {
+     padding: 7.5px 15px;
+     border-radius: 2px;
+     background-color: #009999;
+     color: #ffffff;
+     border: none;
+     outline: none;
+ }
+ 
+ .footer {
+     height: 165px;
+     width: 100%;
+     clear: both;
+     font-size: 20px;
+     text-align: center;
+     background: url(../images/logo1.jpg) no-repeat;
+     background-color: #7ff;
+     margin-top: 0 20px;
+     padding-top: 35px;
+ }
+ 
+ .top-right {
+     Position: absolute;
+     Top: 0px;
+     Right: 79px;
+     Border-bottom-left-radius: 30px;
+     background-color: aquamarine;
+     line-height: 34px;
+     padding: 0 0px 0 0px;
+     box-shadow: 0 0 20px white;
+ }
+ 
+ .top-right>a {
+     text-decoration: none;
+     color: blue;
+     font-variant: small-caps;
+     padding: 0 10px;
+ }
+ 
+ .top-right>a:hover {
+     color: yellow;
+ }
+ 
+ .menutailieu {
+     position: relative;
+ }
